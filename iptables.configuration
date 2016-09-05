@@ -1,0 +1,2 @@
+To avoid ddos burst:
+sudo iptables -A INPUT -s 191.96.249.54 -j DROP
